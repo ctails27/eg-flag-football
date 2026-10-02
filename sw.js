@@ -1,6 +1,6 @@
 // EG Flag Football - offline support. Relative paths so it works under /repo-name/ on GitHub Pages.
 // Bump CACHE when you publish a new version so phones pick it up.
-const CACHE = 'eg-flag-v1';
+const CACHE = 'eg-flag-v2';
 const FILES = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
